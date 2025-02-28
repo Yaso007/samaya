@@ -1,0 +1,133 @@
+ <h1>Hi, welcome to this web page</h1>
+   <p>The following image is of a Koala bear enjoying his day on a tree</p>
+   <img style="width: 450px;"src="https://media.istockphoto.com/id/530674261/photo/koala-resting-and-sleeping-on-his-tree.jpg?s=1024x1024&w=is&k=20&c=0KJelvYL3acHl79iTQuT2EjUW1PyOGUQWvCbw48RO-k=">
+   <p>Koala bear love to feed on the following listed trees's leaves</p>
+   <ul>
+    <li>Eucalyptus Leaves</li>
+    <li>Brush Box Trees</li>
+    <li>Paperbark Trees</li>
+    <li>Bloodwood Trees</li>
+   </ul>
+   <p>Koalas are found only in Australia the following lists places where Koalas are found in Austrailia.</p>
+   <ol>
+    <li>Queensland</li>
+    <li>New South Wales</li>
+    <li>South Austrailia</li>
+    <li>Victoria</li>
+   </ol>
+
+   <p>If you have any queries about Koala bears please drop your email we'll contact you back</p>
+   <form>
+        <label >Email</label>
+        <input type="text">
+        <button>Submit</button>
+   </form>
+    <fieldset>
+            <legend>Contact Information</legend>
+    </fieldset>
+    <table>
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Laptop</td>
+            <td>$1200</td>
+          </tr>
+          <tr>
+            <td>Mouse</td>
+            <td>$25</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th colspan="2">Total 2 items</th>
+          </tr>
+        </tfoot>
+      </table>
+
+      <table style="margin: 10%;">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Laptop</td>
+            <td>$1200</td>
+          </tr>
+          <tr>
+            <td>Mouse</td>
+            <td>$25</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th colspan="2">Total 2 items</th>
+          </tr>
+        </tfoot>
+      </table>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <input type="text" id="firstName" name="firstName" placeholder="First Name" required><br><br>
+        <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+        <select name="abc">
+            <option value="fruit">male</option>
+            <option value="veggies">female</option>
+        </select>
+        <textarea name="abc" id="" placeholder="enter your address"></textarea>
+    </fieldset>
+
+    <input type="checkbox">
+    <input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label>
+   <select name="fruit" style="margin-top: 50%;margin-bottom: 20%;margin-left: 20%;"> 
+    <option value="apple">Apple</option> 
+    <option value="banana">Banana</option> 
+    <option value="orange">Orange</option>
+     </select>
+         <label for="name">Name</label>
+    <input type="text" placeholder="Enter your name" name="name">
+    <br>
+    <label for="password">password</label>
+    <input type="password" placeholder="Enter your password" name="password">
+    <br>
+
+    <label for="gender">Select your gender</label>
+    <br>
+    <label for="gender">male</label>
+    <input type="radio" name="gender" value="male">
+    <label for="gender">female</label>
+    <input type="radio" name="gender"value=female >
+<br>
+    <label for="interests">Interests</label>
+    <input type="checkbox" name="I" value="football" >
+    <label for="football">Football</label>
+    <input type="checkbox" name="I" value="cricket">
+    <label for="cricket">cricket</label>
+<br>
+    <label for="country">Country</label>
+    <select name="country">
+        <option value="India">India</option>
+        <option value="India">Russia</option>
+        <option value="India">Germany</option>
+        <option value="India">USA</option>
+        <option value="India">Japan</option>
+        <option value="India">Norway</option>
+    </select>
+    <br>
+    <label for="profile">Upload a profile picture</label>
+    <input type="file">
+    <br>
+    <label for="bio">Write a bio about yourself</label>
+    <br>
+    <textarea name="bio" ></textarea>
+    <br>
+    <button type="submit">Submit</button>
