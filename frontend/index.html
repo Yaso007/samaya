@@ -29,9 +29,9 @@
         
             <input type="email"class="formElements" placeholder="Email ID" required name="email">
     
-            <input type="number" maxlength="10"class="formElements" placeholder="Phone No" required name="number">
+            <input type="number" minlength="10" maxlength="10"class="formElements" placeholder="Phone No" required name="number">
     
-            <select name="destination" id="dest" required>
+            <select name="destination" id="dest" class="formElements" required>
                 <option value="null">Select Destination</option>
                 <option value="Yumthang">Yumthang</option>
                 <option value="Changu">Changu</option>
@@ -39,13 +39,13 @@
                 <option value="Gangtok">Gangtok</option>
             </select>
             
-            <select name="length" id="len" required>
+            <select name="length" id="len" class="formElements" required>
                 <option>Select Duration</option>
                 <option value="7">7 Days</option>
                 <option value="14">2 weeks</option>
             </select>
             
-            <button type="submit" onclick="sendToBackend(event)">Book Now</button>
+            <button type="submit" onclick="sendToBackend(event)" class="formElements">Book Now</button>
             
      </form>
 
@@ -53,6 +53,14 @@
     
  
 </div>
+
+<div class="mid"><img src="" alt=""></div>
+
+<footer>
+    <div class="about">
+        
+    </div>
+</footer>
 <script src="index.js"></script>
 
 </body>
