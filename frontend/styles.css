@@ -7,7 +7,7 @@ body{
     color: aliceblue;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(79, 133, 248);
+    background-color: #880007;
     height: 1.5rem;
     font-family: "Poppins", serif;
     font-weight: 500;
@@ -52,8 +52,8 @@ form{
 
 
 }
-.card{
-  position:absolute;
+.formholder{
+ 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,4 +79,21 @@ form{
   height:2rem;
   border-radius: 5px;
   outline-color: rgb(19, 108, 190);
+}
+#tea{
+  height: 400px;
+  
+
+}
+.mid{
+  background-color: bisque;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap:10px;
+}
+.card{
+  border:2px solid black;
+  height: 400px;
+
 }
