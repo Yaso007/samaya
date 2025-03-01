@@ -86,14 +86,26 @@ form{
 
 }
 .mid{
-  background-color: bisque;
+  background-color: #008881;
   padding: 10px;
   display: grid;
   grid-template-columns: repeat(4,1fr);
   gap:10px;
 }
 .card{
-  border:2px solid black;
+  border-radius: 10px;
   height: 400px;
 
+}
+.card img{
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+footer{
+  width: 100%;
+  height: 250px;;
+  background-color:#880007;
 }
