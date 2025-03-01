@@ -62,36 +62,7 @@ form{
  
   
 }
-@media (max-width:768px) {
-  
-form{
-  display: grid;
-  grid-template-columns: repeat(1,1fr);
-  gap:15px;
-  position: relative;
-  background-color: aliceblue;
- 
- 
- }
- .mid{
-  background-color: #008881;
-  padding: 10px;
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  gap:10px;
-}
-.card{
-  border-radius: 10px;
-  height: 400px;
 
-}
-.card img{
-  width: 100%;
-  height:100%;
-  object-fit: cover;
-  border-radius: 10px;
-}
-}
 .formElements{
   border:0;
   height:2rem;
@@ -126,4 +97,34 @@ footer{
   width: 100%;
   height: 250px;;
   background-color:#880007;
+}
+
+
+@media (max-width:768px) {
+  form{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap:15px;
+  position: relative;
+  background-color: aliceblue;
+ }
+
+ .mid{
+  background-color: #008881;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:10px;
+}
+.card{
+  border-radius: 10px;
+  height: 400px;
+
+}
+.card img{
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
 }
