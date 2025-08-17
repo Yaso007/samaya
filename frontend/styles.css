@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body{
   margin:0;
+  font-family: nunito;
 }
 .navbar{
     display: flex;
@@ -100,8 +101,9 @@ form{
 
 footer{
   width: 100%;
-  height: 250px;;
+  height: 200px;;
   background-color:#880007;
+  margin-top: auto;
 }
 
 
@@ -143,4 +145,76 @@ footer{
   object-fit: cover;
   border-radius: 10px;
 }
+}
+.about{
+  color:white;
+  font-family:poppins;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+#contactinfo{
+  margin: 0;
+}
+ul {
+  margin-left: 0;
+  padding-left: 5px;
+  color:white;
+  
+}
+li{
+  list-style: none;
+  display: flex;
+  gap:10px;
+  align-items: center;
+}
+#copyrightsSamaya{
+  color:white;
+  font-family: nunito;
+
+}
+footer{
+  padding-top: 2rem ;
+  padding-left: 2rem;
+}
+i{
+  color: white;
+}
+#socialmedia{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  font-size: larger;
+}
+.copyright{
+  display: flex;
+  justify-content: center;
+  gap:2rem;
+  align-items: center;
+}
+.footer_second{
+  display: flex;
+  justify-content: space-between;
+}
+.footer_second a{
+  text-decoration: none;
+  color:white;
+
+}
+.TandC{
+  display: flex;
+  flex-direction: column;
+  padding-right: 70px;
+  gap:5px;
+}
+
+.logo{
+  display: flex;
+}
+
+.logo img{
+    width: 5%;
+    aspect-ratio: 4/3;
+    object-fit: contain;
 }

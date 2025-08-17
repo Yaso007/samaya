@@ -1,0 +1,7 @@
+Hey I am building a travel agency website, that's named "SamayaOdyssey".
+Help me build its frontend part, with compelete nav bars, hero section, main body that contains infos about tour package, and each tap on package leads to a 
+different page that explains the itenary with visuals that is to used from the images I have provided in the images folder.
+This website takes user info like name, email, phone number, tour package name, number of persons in a modern looking form. This data is sent to the backend for it to be save in a 
+Db.
+
+The tech stack that is to be used for frontend is React js, make this website responsive for both large screens and mobile screen, a ham burger icon is to be used to hold the navbar options in the mobile device.
