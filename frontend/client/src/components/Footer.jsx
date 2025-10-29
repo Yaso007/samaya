@@ -20,9 +20,7 @@ const Footer = () => {
               <a href="#" aria-label="Instagram">
                 <i className="fa-brands fa-instagram"></i>
               </a>
-              <a href="#" aria-label="Twitter">
-                <i className="fa-brands fa-twitter"></i>
-              </a>
+            
               <a href="#" aria-label="WhatsApp">
                 <i className="fa-brands fa-whatsapp"></i>
               </a>
@@ -58,11 +56,11 @@ const Footer = () => {
               </p>
               <p>
                 <i className="fas fa-phone"></i>
-                +91 98765 43210
+                +91 9064155890/ +91 6294096795
               </p>
               <p>
                 <i className="fas fa-envelope"></i>
-                info@samayaodyssey.com
+                 samayaodyssey@gmail.com
               </p>
               <p>
                 <i className="fas fa-clock"></i>

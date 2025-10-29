@@ -98,7 +98,7 @@ const TourPackages = () => {
               <div className="package-content">
                 <h3>{pkg.name}</h3>
                 <div className="package-duration">{pkg.duration}</div>
-                <div className="package-description">{pkg.description}</div>
+                <div className="package-desc">{pkg.description}</div>
                 <div className="package-highlights">
                   <h4>Highlights:</h4>
                   <ul>

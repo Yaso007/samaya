@@ -44,7 +44,7 @@ const BookingForm = () => {
       // In a real app, you would send this data to your backend
       console.log('Form data to be sent to backend:', formData);
       
-      setSubmitMessage('Thank you! Your booking request has been submitted successfully. We will contact you soon!');
+     
       setFormData({
         name: '',
         email: '',
@@ -54,6 +54,32 @@ const BookingForm = () => {
         travelDate: '',
         specialRequests: ''
       });
+
+      const userData = {
+        username: formData.name,
+        email: formData.email,
+        phone: formData.phone,
+        package_name: formData.packageName,
+        number_of_persons: formData.numberOfPersons,
+        travel_date: formData.travelDate,
+        special_request: formData.specialRequests
+      };
+      
+      console.log("Sending user data to server:", userData);
+
+      const res = await fetch("http://localhost:3000/api/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(userData),
+      });
+
+      const data = await res.json();
+
+      console.log("Server response:", data);
+
+      setSubmitMessage('Thank you! Your booking request has been submitted successfully.');
     } catch (error) {
       setSubmitMessage('Sorry, there was an error submitting your request. Please try again.');
     } finally {
@@ -65,8 +91,8 @@ const BookingForm = () => {
     <section className="booking-form" id="contact">
       <div className="container">
         <div className="section-header">
-          <h2>Book Your Adventure</h2>
-          <p>Fill out the form below to start your journey with SamayaOdyssey</p>
+          <h2 className='booking-header'>Book Your Adventure</h2>
+          <p className='booking-form-sub'>Fill out the form below to start your journey with SamayaOdyssey</p>
         </div>
         
         <div className="form-container">
