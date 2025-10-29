@@ -56,8 +56,7 @@ const Footer = () => {
               </p>
               <p>
                 <i className="fas fa-phone"></i>
-                +91 9064155890/ +91 6294096795
-              </p>
+                +91 9064155890/ +91 7478724152
               <p>
                 <i className="fas fa-envelope"></i>
                  samayaodyssey@gmail.com
