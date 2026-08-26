@@ -91,15 +91,15 @@ const TourPackages = () => {
             <div key={pkg.id} className="package-card" onClick={() => handlePackageClick(pkg.path)}>
               <div className="package-image">
                 <img src={pkg.image} alt={pkg.name} />
-                <div className="package-overlay">
+                {/* <div className="package-overlay">
                   <span className="package-price">{pkg.price}</span>
-                </div>
+                </div> */}
               </div>
-              <div className="package-content">
+              <div className="tour-package-highlights">
                 <h3>{pkg.name}</h3>
                 <div className="package-duration">{pkg.duration}</div>
                 <div className="package-desc">{pkg.description}</div>
-                <div className="package-highlights">
+                <div className="tour-package-highlights">
                   <h4>Highlights:</h4>
                   <ul>
                     {pkg.highlights.map((highlight, index) => (
