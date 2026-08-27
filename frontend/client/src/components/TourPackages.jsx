@@ -95,7 +95,7 @@ const TourPackages = () => {
                   <span className="package-price">{pkg.price}</span>
                 </div> */}
               </div>
-              <div className="tour-package-highlights">
+              <div className="package-content">
                 <h3>{pkg.name}</h3>
                 <div className="package-duration">{pkg.duration}</div>
                 <div className="package-desc">{pkg.description}</div>
@@ -107,7 +107,7 @@ const TourPackages = () => {
                     ))}
                   </ul>
                 </div>
-                <button className="btn btn-primary">View Details</button>
+                <button className="btn">View Details</button>
               </div>
             </div>
           ))}
